@@ -16,6 +16,7 @@
 		52FE4911236EDAF500567650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FE490F236EDAF500567650 /* LaunchScreen.storyboard */; };
 		52FE491C236EDAF500567650 /* tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE491B236EDAF500567650 /* tutorialTests.swift */; };
 		52FE4927236EDAF500567650 /* tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE4926236EDAF500567650 /* tutorialUITests.swift */; };
+		52FE493523700CF000567650 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE493423700CF000567650 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		52FE4922236EDAF500567650 /* tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FE4926236EDAF500567650 /* tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorialUITests.swift; sourceTree = "<group>"; };
 		52FE4928236EDAF500567650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FE493423700CF000567650 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		52FE48F5236EDAF200567650 = {
 			isa = PBXGroup;
 			children = (
+				52FE493423700CF000567650 /* CircleImage.swift */,
 				52FE4900236EDAF300567650 /* tutorial */,
 				52FE491A236EDAF500567650 /* tutorialTests */,
 				52FE4925236EDAF500567650 /* tutorialUITests */,
@@ -274,6 +277,7 @@
 				52FE4904236EDAF300567650 /* SceneDelegate.swift in Sources */,
 				52FE4909236EDAF300567650 /* ContentView.swift in Sources */,
 				52FE4907236EDAF300567650 /* tutorial.xcdatamodeld in Sources */,
+				52FE493523700CF000567650 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
